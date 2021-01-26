@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"mediaug:cobblestone_bricks": {
+		"sound": "stone",
+		"isotropic": false,
+		"textures": "bricks_cobblestone"
+	},
+	"mediaug:granite_bricks": {
+		"sound": "stone",
+		"isotropic": false,
+		"textures": "bricks_granite"
+	},
+	"mediaug:andesite_bricks": {
+		"sound": "stone",
+		"isotropic": false,
+		"textures": "bricks_andesite"
+	},
+	"mediaug:diorite_bricks": {
+		"sound": "stone",
+		"isotropic": false,
+		"textures": "bricks_diorite"
+	}
+}

@@ -1,0 +1,216 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Medieval Augmentation [Res.]\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "a215d8e1_bf76_45b4_ae00_fe450dcfd39a",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"bricks_cobblestone": {
+							"textures": [
+								"textures/blocks/cobblestone_bricks"
+							]
+						},
+						"bricks_granite": {
+							"textures": [
+								"textures/blocks/granite_bricks"
+							]
+						},
+						"bricks_andesite": {
+							"textures": [
+								"textures/blocks/andesite_bricks"
+							]
+						},
+						"bricks_diorite": {
+							"textures": [
+								"textures/blocks/diorite_bricks"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"bricks_cobblestone": {
+								"textures": [
+									"textures/blocks/cobblestone_bricks"
+								]
+							},
+							"bricks_granite": {
+								"textures": [
+									"textures/blocks/granite_bricks"
+								]
+							},
+							"bricks_andesite": {
+								"textures": [
+									"textures/blocks/andesite_bricks"
+								]
+							},
+							"bricks_diorite": {
+								"textures": [
+									"textures/blocks/diorite_bricks"
+								]
+							}
+						},
+						"key": "bricks_cobblestone",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/cobblestone_bricks"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/cobblestone_bricks"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bricks_cobblestone": {
+								"textures": [
+									"textures/blocks/cobblestone_bricks"
+								]
+							},
+							"bricks_granite": {
+								"textures": [
+									"textures/blocks/granite_bricks"
+								]
+							},
+							"bricks_andesite": {
+								"textures": [
+									"textures/blocks/andesite_bricks"
+								]
+							},
+							"bricks_diorite": {
+								"textures": [
+									"textures/blocks/diorite_bricks"
+								]
+							}
+						},
+						"key": "bricks_granite",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/granite_bricks"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/granite_bricks"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bricks_cobblestone": {
+								"textures": [
+									"textures/blocks/cobblestone_bricks"
+								]
+							},
+							"bricks_granite": {
+								"textures": [
+									"textures/blocks/granite_bricks"
+								]
+							},
+							"bricks_andesite": {
+								"textures": [
+									"textures/blocks/andesite_bricks"
+								]
+							},
+							"bricks_diorite": {
+								"textures": [
+									"textures/blocks/diorite_bricks"
+								]
+							}
+						},
+						"key": "bricks_andesite",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/andesite_bricks"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/andesite_bricks"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bricks_cobblestone": {
+								"textures": [
+									"textures/blocks/cobblestone_bricks"
+								]
+							},
+							"bricks_granite": {
+								"textures": [
+									"textures/blocks/granite_bricks"
+								]
+							},
+							"bricks_andesite": {
+								"textures": [
+									"textures/blocks/andesite_bricks"
+								]
+							},
+							"bricks_diorite": {
+								"textures": [
+									"textures/blocks/diorite_bricks"
+								]
+							}
+						},
+						"key": "bricks_diorite",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/diorite_bricks"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/diorite_bricks"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,425 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Medieval Augmentation [Bev.]\\items\\flintlock_pistol_empty.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "95eefa3c_e6d1_4c54_abbd_f53d5a882a9a",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mediaug:flintlock_pistol_empty",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:icon": {
+								"texture": "flintlock_pistol"
+							},
+							"minecraft:render_offsets": "bow",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:display_name": {
+								"value": "Flintlock Pistol (Empty)"
+							},
+							"minecraft:use_duration": 3,
+							"minecraft:food": {
+								"nutrition": 0,
+								"can_always_eat": true,
+								"on_consume": {
+									"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+									"event": "on_use"
+								}
+							},
+							"minecraft:use_animation": "bow"
+						},
+						"events": {
+							"on_use": {
+								"run_command": {
+									"command": [
+										"function reloadFlintlock"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol_empty",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol (Empty)"
+								},
+								"minecraft:use_duration": 3,
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"on_consume": {
+										"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+										"event": "on_use"
+									}
+								},
+								"minecraft:use_animation": "bow"
+							},
+							"events": {
+								"on_use": {
+									"run_command": {
+										"command": [
+											"function reloadFlintlock"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mediaug:flintlock_pistol_empty",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol_empty",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol (Empty)"
+								},
+								"minecraft:use_duration": 3,
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"on_consume": {
+										"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+										"event": "on_use"
+									}
+								},
+								"minecraft:use_animation": "bow"
+							},
+							"events": {
+								"on_use": {
+									"run_command": {
+										"command": [
+											"function reloadFlintlock"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol (Empty)"
+									},
+									"minecraft:use_duration": 3,
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"on_consume": {
+											"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+											"event": "on_use"
+										}
+									},
+									"minecraft:use_animation": "bow"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "flintlock_pistol"
+								}
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol (Empty)"
+									},
+									"minecraft:use_duration": 3,
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"on_consume": {
+											"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+											"event": "on_use"
+										}
+									},
+									"minecraft:use_animation": "bow"
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol (Empty)"
+									},
+									"minecraft:use_duration": 3,
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"on_consume": {
+											"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+											"event": "on_use"
+										}
+									},
+									"minecraft:use_animation": "bow"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Flintlock Pistol (Empty)"
+								}
+							},
+							{
+								"data": "3",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol (Empty)"
+									},
+									"minecraft:use_duration": 3,
+									"minecraft:food": {
+										"nutrition": 0,
+										"can_always_eat": true,
+										"on_consume": {
+											"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+											"event": "on_use"
+										}
+									},
+									"minecraft:use_animation": "bow"
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"open": {
+											"nutrition": 0,
+											"can_always_eat": true,
+											"on_consume": {
+												"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+												"event": "on_use"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+											"event": "on_use"
+										}
+									}
+								]
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:use_animation"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol_empty",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol (Empty)"
+								},
+								"minecraft:use_duration": 3,
+								"minecraft:food": {
+									"nutrition": 0,
+									"can_always_eat": true,
+									"on_consume": {
+										"condition": "query.get_equipped_item_name(1)=='flintlock_bullet'",
+										"event": "on_use"
+									}
+								},
+								"minecraft:use_animation": "bow"
+							},
+							"events": {
+								"on_use": {
+									"run_command": {
+										"command": [
+											"function reloadFlintlock"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_use": {
+										"run_command": {
+											"command": [
+												"function reloadFlintlock"
+											]
+										}
+									}
+								},
+								"key": "on_use",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"function reloadFlintlock"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"function reloadFlintlock"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"function reloadFlintlock"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

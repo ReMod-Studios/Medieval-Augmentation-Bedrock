@@ -1,0 +1,605 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Medieval Augmentation [Bev.]\\items\\flintlock_pistol.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "18106831_43f3_480f_b403_7c8afabd0fd1",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mediaug:flintlock_pistol",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:foil": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:cooldown": {
+								"category": "flintlock",
+								"duration": 3
+							},
+							"minecraft:icon": {
+								"texture": "flintlock_pistol"
+							},
+							"minecraft:render_offsets": "bow",
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:display_name": {
+								"value": "Flintlock Pistol"
+							},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "on_use"
+								}
+							}
+						},
+						"events": {
+							"on_use": {
+								"sequence": [
+									{
+										"shoot": {
+											"projectile": "mediaug:flintlock_bullet_entity",
+											"launch_power": 2
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"clear @s mediaug:flintlock_pistol 1",
+												"give @s mediaug:flintlock_pistol_empty 1"
+											]
+										}
+									},
+									{
+										"decrement_stack": {}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:cooldown": {
+									"category": "flintlock",
+									"duration": 3
+								},
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								}
+							},
+							"events": {
+								"on_use": {
+									"sequence": [
+										{
+											"shoot": {
+												"projectile": "mediaug:flintlock_bullet_entity",
+												"launch_power": 2
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"clear @s mediaug:flintlock_pistol 1",
+													"give @s mediaug:flintlock_pistol_empty 1"
+												]
+											}
+										},
+										{
+											"decrement_stack": {}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mediaug:flintlock_pistol",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:cooldown": {
+									"category": "flintlock",
+									"duration": 3
+								},
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								}
+							},
+							"events": {
+								"on_use": {
+									"sequence": [
+										{
+											"shoot": {
+												"projectile": "mediaug:flintlock_bullet_entity",
+												"launch_power": 2
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"clear @s mediaug:flintlock_pistol 1",
+													"give @s mediaug:flintlock_pistol_empty 1"
+												]
+											}
+										},
+										{
+											"decrement_stack": {}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:cooldown": {
+										"category": "flintlock",
+										"duration": 3
+									},
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "flintlock",
+									"duration": 3
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:cooldown": {
+										"category": "flintlock",
+										"duration": 3
+									},
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "flintlock_pistol"
+								}
+							},
+							{
+								"data": "bow",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:cooldown": {
+										"category": "flintlock",
+										"duration": 3
+									},
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:cooldown": {
+										"category": "flintlock",
+										"duration": 3
+									},
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Flintlock Pistol"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:foil": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:cooldown": {
+										"category": "flintlock",
+										"duration": 3
+									},
+									"minecraft:icon": {
+										"texture": "flintlock_pistol"
+									},
+									"minecraft:render_offsets": "bow",
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:display_name": {
+										"value": "Flintlock Pistol"
+									},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "on_use"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "on_use"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:flintlock_pistol",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:cooldown": {
+									"category": "flintlock",
+									"duration": 3
+								},
+								"minecraft:icon": {
+									"texture": "flintlock_pistol"
+								},
+								"minecraft:render_offsets": "bow",
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:display_name": {
+									"value": "Flintlock Pistol"
+								},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								}
+							},
+							"events": {
+								"on_use": {
+									"sequence": [
+										{
+											"shoot": {
+												"projectile": "mediaug:flintlock_bullet_entity",
+												"launch_power": 2
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"clear @s mediaug:flintlock_pistol 1",
+													"give @s mediaug:flintlock_pistol_empty 1"
+												]
+											}
+										},
+										{
+											"decrement_stack": {}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_use": {
+										"sequence": [
+											{
+												"shoot": {
+													"projectile": "mediaug:flintlock_bullet_entity",
+													"launch_power": 2
+												}
+											},
+											{
+												"run_command": {
+													"command": [
+														"clear @s mediaug:flintlock_pistol 1",
+														"give @s mediaug:flintlock_pistol_empty 1"
+													]
+												}
+											},
+											{
+												"decrement_stack": {}
+											}
+										]
+									}
+								},
+								"key": "on_use",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"shoot": {
+														"projectile": "mediaug:flintlock_bullet_entity",
+														"launch_power": 2
+													}
+												},
+												{
+													"run_command": {
+														"command": [
+															"clear @s mediaug:flintlock_pistol 1",
+															"give @s mediaug:flintlock_pistol_empty 1"
+														]
+													}
+												},
+												{
+													"decrement_stack": {}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"shoot": {
+															"projectile": "mediaug:flintlock_bullet_entity",
+															"launch_power": 2
+														}
+													},
+													{
+														"run_command": {
+															"command": [
+																"clear @s mediaug:flintlock_pistol 1",
+																"give @s mediaug:flintlock_pistol_empty 1"
+															]
+														}
+													},
+													{
+														"decrement_stack": {}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"shoot": {
+														"projectile": "mediaug:flintlock_bullet_entity",
+														"launch_power": 2
+													}
+												}
+											},
+											{
+												"open": [
+													{
+														"shoot": {
+															"projectile": "mediaug:flintlock_bullet_entity",
+															"launch_power": 2
+														}
+													},
+													{
+														"run_command": {
+															"command": [
+																"clear @s mediaug:flintlock_pistol 1",
+																"give @s mediaug:flintlock_pistol_empty 1"
+															]
+														}
+													},
+													{
+														"decrement_stack": {}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"run_command": {
+																"command": [
+																	"clear @s mediaug:flintlock_pistol 1",
+																	"give @s mediaug:flintlock_pistol_empty 1"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"clear @s mediaug:flintlock_pistol 1",
+																		"give @s mediaug:flintlock_pistol_empty 1"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"clear @s mediaug:flintlock_pistol 1",
+																	"give @s mediaug:flintlock_pistol_empty 1"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"shoot": {
+															"projectile": "mediaug:flintlock_bullet_entity",
+															"launch_power": 2
+														}
+													},
+													{
+														"run_command": {
+															"command": [
+																"clear @s mediaug:flintlock_pistol 1",
+																"give @s mediaug:flintlock_pistol_empty 1"
+															]
+														}
+													},
+													{
+														"decrement_stack": {}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"decrement_stack": {}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

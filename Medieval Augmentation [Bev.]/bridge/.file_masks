@@ -1,0 +1,87 @@
+{
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"9656e544_ff7b_435b_94df_bdac4b5a52b9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"18106831_43f3_480f_b403_7c8afabd0fd1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"95eefa3c_e6d1_4c54_abbd_f53d5a882a9a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/flintlock_bullet.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/items/flintlock_pistol.json": {
+		"data": {}
+	},
+	"BP/entities/flintlock_bullet_entity.json": {
+		"data": {}
+	},
+	"RP/entity/flintlock_bullet_entity.json": {
+		"data": {}
+	},
+	"BP/items/flintlock_pistol_empty.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/cobblestone_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/cobblestone_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/granite_bricks.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/granite_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/andesite_bricks.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/andesite_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/diorite_bricks.json": {
+		"data": {}
+	},
+	"BP/loot_tables/blocks/diorite_bricks.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	}
+}

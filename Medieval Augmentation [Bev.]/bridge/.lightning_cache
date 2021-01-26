@@ -1,0 +1,133 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/flintlock_bullet_entity.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:flintlock_bullet_entity"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/flintlock_bullet.json": {
+			"identifiers": [
+				"mediaug:flintlock_pistol"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flintlock_pistol.json": {
+			"identifiers": [
+				"mediaug:flintlock_pistol"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flintlock_pistol_empty.json": {
+			"identifiers": [
+				"mediaug:flintlock_pistol_empty"
+			],
+			"custom_commands": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/flintlock_bullet_entity.json": {
+			"identifiers": [
+				"minecraft:fireball"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"face_player"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"function": {
+		"BP/functions/reloadFlintlock.mcfunction": {
+			"custom_commands": []
+		},
+		"95eefa3c_e6d1_4c54_abbd_f53d5a882a9a": {},
+		"18106831_43f3_480f_b403_7c8afabd0fd1": {},
+		"BP/functions/getBricks.mcfunction": {
+			"custom_commands": []
+		}
+	},
+	"block": {
+		"BP/blocks/cobblestone_bricks.json": {
+			"identifiers": [
+				"mediaug:diorite_bricks"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/granite_bricks.json": {
+			"identifiers": [
+				"mediaug:diorite_bricks"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/andesite_bricks.json": {
+			"identifiers": [
+				"mediaug:diorite_bricks"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/diorite_bricks.json": {
+			"identifiers": [
+				"mediaug:diorite_bricks"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	}
+}

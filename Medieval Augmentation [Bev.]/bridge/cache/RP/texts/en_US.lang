@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Medieval Augmentation [Res.]\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "cad74a9f_1060_43c1_920d_2fcf917a51a4",
+	"file_version": 6,
+	"cache_content": "pack.name=Medieval Augmentation §8[Res.]\r\npack.description=A Project that aims to expand the medievalist vibe of Minecraft.\r\n\r\n##items\r\nitem.mediaug:flintlock_bullet.name=Flintlock Bullet\r\nitem.mediaug:flintlock_pistol.name=Flintlock Pistol\r\nitem.mediaug:flintlock_pistol_empty.name=Flintlock Pistol Empty\r\n\r\n##blocks\r\ntile.mediaug:cobblestone_bricks.name=Cobblestone Bricks\r\ntile.mediaug:granite_bricks.name=Granite Bricks\r\ntile.mediaug:andesite_bricks.name=Andesite Bricks\r\ntile.mediaug:diorite_bricks.name=Diorite Bricks\r\n\r\n##entities\r\nentity.mediaug:flintlock_bullet_entity.name=Flintlock Bullet Entity"
+}

@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"flintlock_bullet": {
+			"textures": [
+				"textures/items/flintlock_bullet"
+			]
+		},
+		"flintlock_pistol": {
+			"textures": [
+				"textures/items/flintlock_pistol"
+			]
+		}
+	}
+}

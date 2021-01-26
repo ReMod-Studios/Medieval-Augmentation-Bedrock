@@ -1,0 +1,17 @@
+##bridge-file-version: #6
+pack.name=Medieval Augmentation §8[Res.]
+pack.description=A Project that aims to expand the medievalist vibe of Minecraft.
+
+##items
+item.mediaug:flintlock_bullet.name=Flintlock Bullet
+item.mediaug:flintlock_pistol.name=Flintlock Pistol
+item.mediaug:flintlock_pistol_empty.name=Flintlock Pistol Empty
+
+##blocks
+tile.mediaug:cobblestone_bricks.name=Cobblestone Bricks
+tile.mediaug:granite_bricks.name=Granite Bricks
+tile.mediaug:andesite_bricks.name=Andesite Bricks
+tile.mediaug:diorite_bricks.name=Diorite Bricks
+
+##entities
+entity.mediaug:flintlock_bullet_entity.name=Flintlock Bullet Entity
