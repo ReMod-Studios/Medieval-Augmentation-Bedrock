@@ -117,37 +117,37 @@
 		},
 		"BP/items/diamond_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		},
 		"BP/items/iron_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		},
 		"BP/items/netherite_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		},
 		"BP/items/stone_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		},
 		"BP/items/wooden_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		},
 		"BP/items/gold_spear.json": {
 			"identifiers": [
-				"mediaug:gold_spear"
+				"mediaug:iron_spear"
 			],
 			"custom_commands": []
 		}

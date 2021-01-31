@@ -3,7 +3,7 @@
 	"file_type": "item_texture",
 	"format_version": 1,
 	"file_uuid": "2687e28c_6f8f_491f_adb0_a41541c066cb",
-	"file_version": 0,
+	"file_version": 1,
 	"cache_content": {
 		"children": [
 			{
@@ -29,28 +29,349 @@
 								"textures/items/flintlock_pistol"
 							]
 						},
+						"wooden_spear": {
+							"textures": [
+								"textures/items/wooden_spear"
+							]
+						},
+						"gold_spear": {
+							"textures": [
+								"textures/items/gold_spear"
+							]
+						},
+						"stone_spear": {
+							"textures": [
+								"textures/items/stone_spear"
+							]
+						},
+						"iron_spear": {
+							"textures": [
+								"textures/items/iron_spear"
+							]
+						},
 						"diamond_spear": {
 							"textures": "textures/items/diamond_spear"
+						},
+						"netherite_spear": {
+							"textures": [
+								"textures/items/netherite_spear"
+							]
 						}
 					}
 				},
 				"key": "texture_data",
-				"is_minified": true,
-				"children": {
-					"flintlock_bullet": {
-						"textures": [
-							"textures/items/flintlock_bullet"
+				"children": [
+					{
+						"key": "flintlock_bullet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/flintlock_bullet"
+							]
+						}
+					},
+					{
+						"key": "flintlock_pistol",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/flintlock_pistol"
+							]
+						}
+					},
+					{
+						"open": {
+							"flintlock_bullet": {
+								"textures": [
+									"textures/items/flintlock_bullet"
+								]
+							},
+							"flintlock_pistol": {
+								"textures": [
+									"textures/items/flintlock_pistol"
+								]
+							},
+							"wooden_spear": {
+								"textures": [
+									"textures/items/wooden_spear"
+								]
+							},
+							"gold_spear": {
+								"textures": [
+									"textures/items/gold_spear"
+								]
+							},
+							"stone_spear": {
+								"textures": [
+									"textures/items/stone_spear"
+								]
+							},
+							"iron_spear": {
+								"textures": [
+									"textures/items/iron_spear"
+								]
+							},
+							"diamond_spear": {
+								"textures": "textures/items/diamond_spear"
+							},
+							"netherite_spear": {
+								"textures": [
+									"textures/items/netherite_spear"
+								]
+							}
+						},
+						"key": "wooden_spear",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wooden_spear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wooden_spear"
+								]
+							}
 						]
 					},
-					"flintlock_pistol": {
-						"textures": [
-							"textures/items/flintlock_pistol"
+					{
+						"open": {
+							"flintlock_bullet": {
+								"textures": [
+									"textures/items/flintlock_bullet"
+								]
+							},
+							"flintlock_pistol": {
+								"textures": [
+									"textures/items/flintlock_pistol"
+								]
+							},
+							"wooden_spear": {
+								"textures": [
+									"textures/items/wooden_spear"
+								]
+							},
+							"gold_spear": {
+								"textures": [
+									"textures/items/gold_spear"
+								]
+							},
+							"stone_spear": {
+								"textures": [
+									"textures/items/stone_spear"
+								]
+							},
+							"iron_spear": {
+								"textures": [
+									"textures/items/iron_spear"
+								]
+							},
+							"diamond_spear": {
+								"textures": "textures/items/diamond_spear"
+							},
+							"netherite_spear": {
+								"textures": [
+									"textures/items/netherite_spear"
+								]
+							}
+						},
+						"key": "gold_spear",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/gold_spear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/gold_spear"
+								]
+							}
 						]
 					},
-					"diamond_spear": {
-						"textures": "textures/items/diamond_spear"
+					{
+						"open": {
+							"flintlock_bullet": {
+								"textures": [
+									"textures/items/flintlock_bullet"
+								]
+							},
+							"flintlock_pistol": {
+								"textures": [
+									"textures/items/flintlock_pistol"
+								]
+							},
+							"wooden_spear": {
+								"textures": [
+									"textures/items/wooden_spear"
+								]
+							},
+							"gold_spear": {
+								"textures": [
+									"textures/items/gold_spear"
+								]
+							},
+							"stone_spear": {
+								"textures": [
+									"textures/items/stone_spear"
+								]
+							},
+							"iron_spear": {
+								"textures": [
+									"textures/items/iron_spear"
+								]
+							},
+							"diamond_spear": {
+								"textures": "textures/items/diamond_spear"
+							},
+							"netherite_spear": {
+								"textures": [
+									"textures/items/netherite_spear"
+								]
+							}
+						},
+						"key": "stone_spear",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/stone_spear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/stone_spear"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"flintlock_bullet": {
+								"textures": [
+									"textures/items/flintlock_bullet"
+								]
+							},
+							"flintlock_pistol": {
+								"textures": [
+									"textures/items/flintlock_pistol"
+								]
+							},
+							"wooden_spear": {
+								"textures": [
+									"textures/items/wooden_spear"
+								]
+							},
+							"gold_spear": {
+								"textures": [
+									"textures/items/gold_spear"
+								]
+							},
+							"stone_spear": {
+								"textures": [
+									"textures/items/stone_spear"
+								]
+							},
+							"iron_spear": {
+								"textures": [
+									"textures/items/iron_spear"
+								]
+							},
+							"diamond_spear": {
+								"textures": "textures/items/diamond_spear"
+							},
+							"netherite_spear": {
+								"textures": [
+									"textures/items/netherite_spear"
+								]
+							}
+						},
+						"key": "iron_spear",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_spear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/iron_spear"
+								]
+							}
+						]
+					},
+					{
+						"key": "diamond_spear",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/diamond_spear"
+						}
+					},
+					{
+						"open": {
+							"flintlock_bullet": {
+								"textures": [
+									"textures/items/flintlock_bullet"
+								]
+							},
+							"flintlock_pistol": {
+								"textures": [
+									"textures/items/flintlock_pistol"
+								]
+							},
+							"wooden_spear": {
+								"textures": [
+									"textures/items/wooden_spear"
+								]
+							},
+							"gold_spear": {
+								"textures": [
+									"textures/items/gold_spear"
+								]
+							},
+							"stone_spear": {
+								"textures": [
+									"textures/items/stone_spear"
+								]
+							},
+							"iron_spear": {
+								"textures": [
+									"textures/items/iron_spear"
+								]
+							},
+							"diamond_spear": {
+								"textures": "textures/items/diamond_spear"
+							},
+							"netherite_spear": {
+								"textures": [
+									"textures/items/netherite_spear"
+								]
+							}
+						},
+						"key": "netherite_spear",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/netherite_spear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/netherite_spear"
+								]
+							}
+						]
 					}
-				}
+				]
 			}
 		]
 	}

@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #14
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -45,7 +45,7 @@
 				"duration": 5
 			},
 			"minecraft:icon": {
-				"texture": "diamond_spear"
+				"texture": "iron_spear"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"

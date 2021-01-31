@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "a8b76bce_af56_4681_b747_c7b780df8c0b",
-	"file_version": 13,
+	"file_version": 14,
 	"cache_content": {
 		"children": [
 			{
@@ -57,7 +57,7 @@
 								"duration": 5
 							},
 							"minecraft:icon": {
-								"texture": "diamond_spear"
+								"texture": "iron_spear"
 							},
 							"minecraft:creative_category": {
 								"parent": "equipment"
@@ -135,7 +135,7 @@
 									"duration": 5
 								},
 								"minecraft:icon": {
-									"texture": "diamond_spear"
+									"texture": "iron_spear"
 								},
 								"minecraft:creative_category": {
 									"parent": "equipment"
@@ -217,7 +217,7 @@
 									"duration": 5
 								},
 								"minecraft:icon": {
-									"texture": "diamond_spear"
+									"texture": "iron_spear"
 								},
 								"minecraft:creative_category": {
 									"parent": "equipment"
@@ -355,7 +355,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -432,7 +432,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -500,7 +500,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -524,7 +524,7 @@
 								"key": "minecraft:icon",
 								"is_minified": true,
 								"children": {
-									"texture": "diamond_spear"
+									"texture": "iron_spear"
 								}
 							},
 							{
@@ -567,7 +567,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -638,7 +638,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -705,7 +705,7 @@
 										"duration": 5
 									},
 									"minecraft:icon": {
-										"texture": "diamond_spear"
+										"texture": "iron_spear"
 									},
 									"minecraft:creative_category": {
 										"parent": "equipment"
@@ -825,7 +825,7 @@
 									"duration": 5
 								},
 								"minecraft:icon": {
-									"texture": "diamond_spear"
+									"texture": "iron_spear"
 								},
 								"minecraft:creative_category": {
 									"parent": "equipment"

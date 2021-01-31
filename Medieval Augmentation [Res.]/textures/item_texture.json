@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -13,8 +13,33 @@
 				"textures/items/flintlock_pistol"
 			]
 		},
+		"wooden_spear": {
+			"textures": [
+				"textures/items/wooden_spear"
+			]
+		},
+		"gold_spear": {
+			"textures": [
+				"textures/items/gold_spear"
+			]
+		},
+		"stone_spear": {
+			"textures": [
+				"textures/items/stone_spear"
+			]
+		},
+		"iron_spear": {
+			"textures": [
+				"textures/items/iron_spear"
+			]
+		},
 		"diamond_spear": {
 			"textures": "textures/items/diamond_spear"
+		},
+		"netherite_spear": {
+			"textures": [
+				"textures/items/netherite_spear"
+			]
 		}
 	}
 }
