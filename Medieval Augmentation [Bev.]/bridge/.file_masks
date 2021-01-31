@@ -33,6 +33,66 @@
 						}
 					}
 				}
+			},
+			"deeab5b4_5c2e_4f2c_badb_a059857544b8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a8b76bce_af56_4681_b747_c7b780df8c0b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0cdbc407_9912_472d_a46f_f837f615e6b9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"750ad168_3e22_4f49_9ee0_5f270f7baeb2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4af7e9ca_a2a9_4baa_a310_c9a31c55fc6c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"83c4789e_553a_42f1_aba1_580f1e9f7424": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -82,6 +142,60 @@
 		"data": {}
 	},
 	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/items/diamond_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_diamond_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_diamond_spear.json": {
+		"data": {}
+	},
+	"BP/items/iron_spear.json": {
+		"data": {}
+	},
+	"BP/items/netherite_spear.json": {
+		"data": {}
+	},
+	"BP/items/stone_spear.json": {
+		"data": {}
+	},
+	"BP/items/wooden_spear.json": {
+		"data": {}
+	},
+	"BP/items/gold_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_netherite_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_iron_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_stone_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_gold_spear.json": {
+		"data": {}
+	},
+	"BP/entities/thrown_wooden_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_netherite_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_iron_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_stone_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_gold_spear.json": {
+		"data": {}
+	},
+	"RP/entity/thrown_wooden_spear.json": {
 		"data": {}
 	}
 }

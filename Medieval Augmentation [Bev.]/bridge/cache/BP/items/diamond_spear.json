@@ -1,0 +1,893 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Medieval Augmentation [Bev.]\\items\\diamond_spear.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "deeab5b4_5c2e_4f2c_badb_a059857544b8",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mediaug:diamond_spear",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 150
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 8,
+							"minecraft:enchantable": {
+								"value": 14,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 12
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 8
+									}
+								]
+							},
+							"minecraft:weapon": {},
+							"tag:minecraft:is_sword": {},
+							"minecraft:on_use": {
+								"on_use": {
+									"event": "on_use"
+								}
+							},
+							"minecraft:cooldown": {
+								"category": "spear",
+								"duration": 5
+							},
+							"minecraft:icon": {
+								"texture": "diamond_spear"
+							},
+							"minecraft:creative_category": {
+								"parent": "equipment"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {
+								"value": "Diamond Spear"
+							},
+							"minecraft:repairable": {
+								"repair_items": [
+									{
+										"items": [
+											"mediaug:diamond_spear",
+											"minecraft:diamond"
+										],
+										"repair_amount": 120
+									}
+								]
+							}
+						},
+						"events": {
+							"on_use": {
+								"shoot": {
+									"projectile": "mediaug:thrown_diamond_spear",
+									"launch_power": 2
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:diamond_spear",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 150
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 12
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 8
+										}
+									]
+								},
+								"minecraft:weapon": {},
+								"tag:minecraft:is_sword": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "spear",
+									"duration": 5
+								},
+								"minecraft:icon": {
+									"texture": "diamond_spear"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Diamond Spear"
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"mediaug:diamond_spear",
+												"minecraft:diamond"
+											],
+											"repair_amount": 120
+										}
+									]
+								}
+							},
+							"events": {
+								"on_use": {
+									"shoot": {
+										"projectile": "mediaug:thrown_diamond_spear",
+										"launch_power": 2
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mediaug:diamond_spear",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:diamond_spear",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 150
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 12
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 8
+										}
+									]
+								},
+								"minecraft:weapon": {},
+								"tag:minecraft:is_sword": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "spear",
+									"duration": 5
+								},
+								"minecraft:icon": {
+									"texture": "diamond_spear"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Diamond Spear"
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"mediaug:diamond_spear",
+												"minecraft:diamond"
+											],
+											"repair_amount": 120
+										}
+									]
+								}
+							},
+							"events": {
+								"on_use": {
+									"shoot": {
+										"projectile": "mediaug:thrown_diamond_spear",
+										"launch_power": 2
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 150
+								}
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "8",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 14,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:digger",
+								"is_minified": true,
+								"children": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 12
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 8
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "tag:minecraft:is_sword",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:on_use",
+								"children": [
+									{
+										"open": {
+											"on_use": {
+												"event": "on_use"
+											}
+										},
+										"key": "on_use",
+										"is_minified": true,
+										"children": {
+											"event": "on_use"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "spear",
+									"duration": 5
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "diamond_spear"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "equipment"
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Diamond Spear"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 150
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 12
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 8
+											}
+										]
+									},
+									"minecraft:weapon": {},
+									"tag:minecraft:is_sword": {},
+									"minecraft:on_use": {
+										"on_use": {
+											"event": "on_use"
+										}
+									},
+									"minecraft:cooldown": {
+										"category": "spear",
+										"duration": 5
+									},
+									"minecraft:icon": {
+										"texture": "diamond_spear"
+									},
+									"minecraft:creative_category": {
+										"parent": "equipment"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Diamond Spear"
+									},
+									"minecraft:repairable": {
+										"repair_items": [
+											{
+												"items": [
+													"mediaug:diamond_spear",
+													"minecraft:diamond"
+												],
+												"repair_amount": 120
+											}
+										]
+									}
+								},
+								"key": "minecraft:repairable",
+								"children": [
+									{
+										"open": {
+											"repair_items": [
+												{
+													"items": [
+														"mediaug:diamond_spear",
+														"minecraft:diamond"
+													],
+													"repair_amount": 120
+												}
+											]
+										},
+										"key": "repair_items",
+										"children": [
+											{
+												"open": [
+													{
+														"items": [
+															"mediaug:diamond_spear",
+															"minecraft:diamond"
+														],
+														"repair_amount": 120
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"items": [
+																"mediaug:diamond_spear",
+																"minecraft:diamond"
+															],
+															"repair_amount": 120
+														},
+														"key": "items",
+														"is_minified": true,
+														"children": [
+															"mediaug:diamond_spear",
+															"minecraft:diamond"
+														]
+													},
+													{
+														"data": "120",
+														"key": "repair_amount"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:diamond_spear",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 150
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 12
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 8
+										}
+									]
+								},
+								"minecraft:weapon": {},
+								"tag:minecraft:is_sword": {},
+								"minecraft:on_use": {
+									"on_use": {
+										"event": "on_use"
+									}
+								},
+								"minecraft:cooldown": {
+									"category": "spear",
+									"duration": 5
+								},
+								"minecraft:icon": {
+									"texture": "diamond_spear"
+								},
+								"minecraft:creative_category": {
+									"parent": "equipment"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Diamond Spear"
+								},
+								"minecraft:repairable": {
+									"repair_items": [
+										{
+											"items": [
+												"mediaug:diamond_spear",
+												"minecraft:diamond"
+											],
+											"repair_amount": 120
+										}
+									]
+								}
+							},
+							"events": {
+								"on_use": {
+									"shoot": {
+										"projectile": "mediaug:thrown_diamond_spear",
+										"launch_power": 2
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_use": {
+										"shoot": {
+											"projectile": "mediaug:thrown_diamond_spear",
+											"launch_power": 2
+										}
+									}
+								},
+								"key": "on_use",
+								"children": [
+									{
+										"open": {
+											"shoot": {
+												"projectile": "mediaug:thrown_diamond_spear",
+												"launch_power": 2
+											}
+										},
+										"key": "shoot",
+										"is_minified": true,
+										"children": {
+											"projectile": "mediaug:thrown_diamond_spear",
+											"launch_power": 2
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

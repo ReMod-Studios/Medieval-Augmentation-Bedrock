@@ -1,0 +1,180 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Medieval Augmentation [Res.]\\entity\\thrown_netherite_spear.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "70586c81_992e_45f9_b368_a17cfa2af370",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mediaug:thrown_netherite_spear",
+							"geometry": {
+								"default": "geometry.throwable_item"
+							},
+							"enable_attachables": false,
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/entity/spear_netherite"
+							},
+							"render_controllers": [
+								"controller.render.default"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:thrown_netherite_spear",
+								"geometry": {
+									"default": "geometry.throwable_item"
+								},
+								"enable_attachables": false,
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/entity/spear_netherite"
+								},
+								"render_controllers": [
+									"controller.render.default"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "mediaug:thrown_netherite_spear",
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"enable_attachables": false,
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/spear_netherite"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"data": "mediaug:thrown_netherite_spear",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "mediaug:thrown_netherite_spear",
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"enable_attachables": false,
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/spear_netherite"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.throwable_item"
+								}
+							},
+							{
+								"data": "false",
+								"key": "enable_attachables"
+							},
+							{
+								"open": {
+									"identifier": "mediaug:thrown_netherite_spear",
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"enable_attachables": false,
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/spear_netherite"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mediaug:thrown_netherite_spear",
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"enable_attachables": false,
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/spear_netherite"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/spear_netherite"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mediaug:thrown_netherite_spear",
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"enable_attachables": false,
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/spear_netherite"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

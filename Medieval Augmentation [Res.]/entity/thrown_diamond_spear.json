@@ -1,0 +1,22 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mediaug:thrown_diamond_spear",
+			"geometry": {
+				"default": "geometry.throwable_item"
+			},
+			"enable_attachables": false,
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/spear_diamond"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

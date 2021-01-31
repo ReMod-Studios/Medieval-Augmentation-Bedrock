@@ -28,6 +28,72 @@
 			"families": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/thrown_diamond_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thrown_netherite_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thrown_iron_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thrown_stone_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thrown_gold_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/thrown_wooden_spear.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"item": {
@@ -48,6 +114,42 @@
 				"mediaug:flintlock_pistol_empty"
 			],
 			"custom_commands": []
+		},
+		"BP/items/diamond_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/netherite_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stone_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gold_spear.json": {
+			"identifiers": [
+				"mediaug:gold_spear"
+			],
+			"custom_commands": []
 		}
 	},
 	"client_entity": {
@@ -59,6 +161,126 @@
 			"animation_references": [
 				"face_player"
 			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_diamond_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_netherite_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_iron_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_stone_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_gold_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/thrown_wooden_spear.json": {
+			"identifiers": [
+				"mediaug:thrown_wooden_spear"
+			],
+			"particle_references": [],
+			"animation_references": [],
 			"sound_references": [],
 			"texture_references": [
 				"default"
