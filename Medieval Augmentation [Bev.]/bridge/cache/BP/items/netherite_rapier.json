@@ -1,0 +1,268 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Medieval Augmentation [Bev.]\\items\\netherite_rapier.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5e72a7f4_2dd9_4720_87e0_9e4d22bff3d0",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mediaug:netherite_rapier",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 2031
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 8,
+							"minecraft:enchantable": {
+								"value": 10,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": false,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "netherite_rapier"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:netherite_rapier",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 2031
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "netherite_rapier"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mediaug:netherite_rapier",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:netherite_rapier",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 2031
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 8,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "netherite_rapier"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 2031
+								}
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "8",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 10,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:digger",
+								"is_minified": true,
+								"children": {
+									"use_efficiency": false,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 2031
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 8,
+									"minecraft:enchantable": {
+										"value": 10,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": false,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:icon": {
+										"texture": "netherite_rapier"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "netherite_rapier"
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

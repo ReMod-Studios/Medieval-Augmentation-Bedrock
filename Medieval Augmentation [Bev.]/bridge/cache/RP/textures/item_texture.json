@@ -3,7 +3,7 @@
 	"file_type": "item_texture",
 	"format_version": 1,
 	"file_uuid": "2687e28c_6f8f_491f_adb0_a41541c066cb",
-	"file_version": 1,
+	"file_version": 2,
 	"cache_content": {
 		"children": [
 			{
@@ -56,6 +56,36 @@
 							"textures": [
 								"textures/items/netherite_spear"
 							]
+						},
+						"wooden_rapier": {
+							"textures": [
+								"textures/items/wooden_rapier"
+							]
+						},
+						"stone_rapier": {
+							"textures": [
+								"textures/items/stone_rapier"
+							]
+						},
+						"iron_rapier": {
+							"textures": [
+								"textures/items/iron_rapier"
+							]
+						},
+						"gold_rapier": {
+							"textures": [
+								"textures/items/gold_rapier"
+							]
+						},
+						"diamond_rapier": {
+							"textures": [
+								"textures/items/diamond_rapier"
+							]
+						},
+						"netherite_rapier": {
+							"textures": [
+								"textures/items/netherite_rapier"
+							]
 						}
 					}
 				},
@@ -71,6 +101,7 @@
 						}
 					},
 					{
+						"comment": "flintlock",
 						"key": "flintlock_pistol",
 						"is_minified": true,
 						"children": {
@@ -80,46 +111,6 @@
 						}
 					},
 					{
-						"open": {
-							"flintlock_bullet": {
-								"textures": [
-									"textures/items/flintlock_bullet"
-								]
-							},
-							"flintlock_pistol": {
-								"textures": [
-									"textures/items/flintlock_pistol"
-								]
-							},
-							"wooden_spear": {
-								"textures": [
-									"textures/items/wooden_spear"
-								]
-							},
-							"gold_spear": {
-								"textures": [
-									"textures/items/gold_spear"
-								]
-							},
-							"stone_spear": {
-								"textures": [
-									"textures/items/stone_spear"
-								]
-							},
-							"iron_spear": {
-								"textures": [
-									"textures/items/iron_spear"
-								]
-							},
-							"diamond_spear": {
-								"textures": "textures/items/diamond_spear"
-							},
-							"netherite_spear": {
-								"textures": [
-									"textures/items/netherite_spear"
-								]
-							}
-						},
 						"key": "wooden_spear",
 						"children": [
 							{
@@ -137,46 +128,6 @@
 						]
 					},
 					{
-						"open": {
-							"flintlock_bullet": {
-								"textures": [
-									"textures/items/flintlock_bullet"
-								]
-							},
-							"flintlock_pistol": {
-								"textures": [
-									"textures/items/flintlock_pistol"
-								]
-							},
-							"wooden_spear": {
-								"textures": [
-									"textures/items/wooden_spear"
-								]
-							},
-							"gold_spear": {
-								"textures": [
-									"textures/items/gold_spear"
-								]
-							},
-							"stone_spear": {
-								"textures": [
-									"textures/items/stone_spear"
-								]
-							},
-							"iron_spear": {
-								"textures": [
-									"textures/items/iron_spear"
-								]
-							},
-							"diamond_spear": {
-								"textures": "textures/items/diamond_spear"
-							},
-							"netherite_spear": {
-								"textures": [
-									"textures/items/netherite_spear"
-								]
-							}
-						},
 						"key": "gold_spear",
 						"children": [
 							{
@@ -194,46 +145,6 @@
 						]
 					},
 					{
-						"open": {
-							"flintlock_bullet": {
-								"textures": [
-									"textures/items/flintlock_bullet"
-								]
-							},
-							"flintlock_pistol": {
-								"textures": [
-									"textures/items/flintlock_pistol"
-								]
-							},
-							"wooden_spear": {
-								"textures": [
-									"textures/items/wooden_spear"
-								]
-							},
-							"gold_spear": {
-								"textures": [
-									"textures/items/gold_spear"
-								]
-							},
-							"stone_spear": {
-								"textures": [
-									"textures/items/stone_spear"
-								]
-							},
-							"iron_spear": {
-								"textures": [
-									"textures/items/iron_spear"
-								]
-							},
-							"diamond_spear": {
-								"textures": "textures/items/diamond_spear"
-							},
-							"netherite_spear": {
-								"textures": [
-									"textures/items/netherite_spear"
-								]
-							}
-						},
 						"key": "stone_spear",
 						"children": [
 							{
@@ -251,46 +162,6 @@
 						]
 					},
 					{
-						"open": {
-							"flintlock_bullet": {
-								"textures": [
-									"textures/items/flintlock_bullet"
-								]
-							},
-							"flintlock_pistol": {
-								"textures": [
-									"textures/items/flintlock_pistol"
-								]
-							},
-							"wooden_spear": {
-								"textures": [
-									"textures/items/wooden_spear"
-								]
-							},
-							"gold_spear": {
-								"textures": [
-									"textures/items/gold_spear"
-								]
-							},
-							"stone_spear": {
-								"textures": [
-									"textures/items/stone_spear"
-								]
-							},
-							"iron_spear": {
-								"textures": [
-									"textures/items/iron_spear"
-								]
-							},
-							"diamond_spear": {
-								"textures": "textures/items/diamond_spear"
-							},
-							"netherite_spear": {
-								"textures": [
-									"textures/items/netherite_spear"
-								]
-							}
-						},
 						"key": "iron_spear",
 						"children": [
 							{
@@ -315,46 +186,7 @@
 						}
 					},
 					{
-						"open": {
-							"flintlock_bullet": {
-								"textures": [
-									"textures/items/flintlock_bullet"
-								]
-							},
-							"flintlock_pistol": {
-								"textures": [
-									"textures/items/flintlock_pistol"
-								]
-							},
-							"wooden_spear": {
-								"textures": [
-									"textures/items/wooden_spear"
-								]
-							},
-							"gold_spear": {
-								"textures": [
-									"textures/items/gold_spear"
-								]
-							},
-							"stone_spear": {
-								"textures": [
-									"textures/items/stone_spear"
-								]
-							},
-							"iron_spear": {
-								"textures": [
-									"textures/items/iron_spear"
-								]
-							},
-							"diamond_spear": {
-								"textures": "textures/items/diamond_spear"
-							},
-							"netherite_spear": {
-								"textures": [
-									"textures/items/netherite_spear"
-								]
-							}
-						},
+						"comment": "spear",
 						"key": "netherite_spear",
 						"children": [
 							{
@@ -367,6 +199,109 @@
 								"is_minified": true,
 								"children": [
 									"textures/items/netherite_spear"
+								]
+							}
+						]
+					},
+					{
+						"key": "wooden_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wooden_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wooden_rapier"
+								]
+							}
+						]
+					},
+					{
+						"key": "stone_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/stone_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/stone_rapier"
+								]
+							}
+						]
+					},
+					{
+						"key": "iron_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/iron_rapier"
+								]
+							}
+						]
+					},
+					{
+						"key": "gold_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/gold_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/gold_rapier"
+								]
+							}
+						]
+					},
+					{
+						"key": "diamond_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/diamond_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/diamond_rapier"
+								]
+							}
+						]
+					},
+					{
+						"comment": "rapier",
+						"key": "netherite_rapier",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/netherite_rapier"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/netherite_rapier"
 								]
 							}
 						]

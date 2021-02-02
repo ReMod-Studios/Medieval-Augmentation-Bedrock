@@ -93,6 +93,66 @@
 						}
 					}
 				}
+			},
+			"6fff4482_0bc4_4475_9730_67e16a99dcc7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"23eb5925_0fa1_4ce8_8f19_57c167a222d0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"478e404e_8772_4e26_8a7c_7d6536e501cd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2c3537dc_8783_402e_9bb5_757c847fd8d4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"11bb01fc_d24e_421f_864e_12f11ed3bb52": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5e72a7f4_2dd9_4720_87e0_9e4d22bff3d0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -196,6 +256,24 @@
 		"data": {}
 	},
 	"RP/entity/thrown_wooden_spear.json": {
+		"data": {}
+	},
+	"BP/items/wooden_rapier.json": {
+		"data": {}
+	},
+	"BP/items/stone_rapier.json": {
+		"data": {}
+	},
+	"BP/items/iron_rapier.json": {
+		"data": {}
+	},
+	"BP/items/gold_rapier.json": {
+		"data": {}
+	},
+	"BP/items/diamond_rapier.json": {
+		"data": {}
+	},
+	"BP/items/netherite_rapier.json": {
 		"data": {}
 	}
 }

@@ -1,4 +1,4 @@
-##bridge-file-version: #7
+##bridge-file-version: #8
 pack.name=Medieval Augmentation §8[Res.]
 pack.description=A Project that aims to expand the medievalist vibe of Minecraft.
 
@@ -7,7 +7,19 @@ item.mediaug:flintlock_bullet.name=Flintlock Bullet
 item.mediaug:flintlock_pistol.name=Flintlock Pistol
 item.mediaug:flintlock_pistol_empty.name=Flintlock Pistol Empty
 
+item.mediaug:wooden_spear=Wooden Spear
+item.mediaug:stone_spear=Stone Spear
+item.mediaug:iron_spear=Iron Spear
+item.mediaug:gold_spear=Gold Spear
 item.mediaug:diamond_spear=Diamond Spear
+item.mediaug:netherite_spear=Netherite Spear
+
+item.mediaug:wooden_rapier=Wooden Rapier
+item.mediaug:stone_rapier=Stone Rapier
+item.mediaug:iron_rapier=Iron Rapier
+item.mediaug:gold_rapier=Gold Rapier
+item.mediaug:diamond_rapier=Diamond Rapier
+item.mediaug:netherite_rapier=Netherite Rapier
 
 ##blocks
 tile.mediaug:cobblestone_bricks.name=Cobblestone Bricks

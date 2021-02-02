@@ -150,6 +150,42 @@
 				"mediaug:iron_spear"
 			],
 			"custom_commands": []
+		},
+		"BP/items/wooden_rapier.json": {
+			"identifiers": [
+				"mediaug:wooden_rapier"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stone_rapier.json": {
+			"identifiers": [
+				"mediaug:stone_rapier"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_rapier.json": {
+			"identifiers": [
+				"mediaug:iron_rapier"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gold_rapier.json": {
+			"identifiers": [
+				"mediaug:gold_rapier"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_rapier.json": {
+			"identifiers": [
+				"mediaug:diamond_rapier"
+			],
+			"custom_commands": []
+		},
+		"BP/items/netherite_rapier.json": {
+			"identifiers": [
+				"mediaug:netherite_rapier"
+			],
+			"custom_commands": []
 		}
 	},
 	"client_entity": {

@@ -1,0 +1,193 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Medieval Augmentation [Bev.]\\items\\gold_rapier.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "2c3537dc_8783_402e_9bb5_757c847fd8d4",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mediaug:gold_rapier",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 32
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 4,
+							"minecraft:enchantable": {
+								"value": 22,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "gold_rapier"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:gold_rapier",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 32
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 4,
+								"minecraft:enchantable": {
+									"value": 22,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "gold_rapier"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mediaug:gold_rapier",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mediaug:gold_rapier",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 32
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 4,
+								"minecraft:enchantable": {
+									"value": 22,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:icon": {
+									"texture": "gold_rapier"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 32
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 4,
+							"minecraft:enchantable": {
+								"value": 22,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:icon": {
+								"texture": "gold_rapier"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}
